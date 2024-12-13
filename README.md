@@ -2,7 +2,7 @@
 
 ### Solutions to the errors I faced in this project:
 - Use the following command to change the gradle version of your project.
-<a href="https://docs.gradle.org/current/userguide/gradle_wrapper.html#sec:upgrading_wrapper" target="_blank">View Source</a> <br>
+ [View Source](https://docs.gradle.org/current/userguide/gradle_wrapper.html#sec:upgrading_wrapper) <br>
 Remember to navigate  _android_ folder of your project before running the command. 
     ```powershell
     1. cd android
