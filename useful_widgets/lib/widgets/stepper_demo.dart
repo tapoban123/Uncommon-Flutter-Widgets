@@ -40,31 +40,31 @@ class _StepperDemoState extends State<StepperDemo> {
           },
           steps: [
             Step(
-              title: const Text("Step 1"),
+              title: Text("Step 1"),
               content: TextButton(
                 onPressed: () {},
-                child: const Text("Go to another step"),
+                child: Text("Go to another step"),
               ),
             ),
             Step(
-              title: const Text("Step 2"),
+              title: Text("Step 2"),
               content: TextButton(
                 onPressed: () {},
-                child: const Text("Go to another step"),
+                child: Text("Go to another step"),
               ),
             ),
             Step(
-              title: const Text("Step 3"),
+              title: Text("Step 3"),
               content: TextButton(
                 onPressed: () {},
-                child: const Text("Go to another step"),
+                child: Text("Go to another step"),
               ),
             ),
             Step(
-              title: const Text("Step 4"),
+              title: Text("Step 4"),
               content: TextButton(
                 onPressed: () {},
-                child: const Text("Go to another step"),
+                child: Text("Go to another step"),
               ),
             ),
           ],
