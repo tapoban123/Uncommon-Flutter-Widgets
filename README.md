@@ -1,7 +1,7 @@
 # Useful Flutter Widgets
 
 ### Solutions to the errors I faced in this project:
-- Use the following command to change the gradle version of your project. [View Source](https://docs.gradle.org/current/userguide/gradle_wrapper.html#sec:upgrading_wrapper)<br>
+- Use the following command to change the gradle version of your project. [View Source](https://docs.gradle.org/current/userguide/gradle_wrapper.html#sec:upgrading_wrapper){:target='blank'}<br>
 Remember to navigate  _android_ folder of your project before running the command. 
     ```powershell
     1. cd android
