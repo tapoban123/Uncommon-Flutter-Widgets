@@ -17,6 +17,7 @@ Remember to navigate  _android_ folder of your project before running the comman
 3. [Stepper](#stepper)
 4. [Isolates](#isolates)
 5. [Search Delegate](#search-delegate)
+6. [Carousel Slider](#carousel-slider)
 
 
 ## Widgets
@@ -208,5 +209,32 @@ Remember to navigate  _android_ folder of your project before running the comman
         );
       }
     }
+    ```
+  <a name="carousel-slider"></a>
+-  ### Carousel Slider ([View Code](lib/widgets/dynamic_carousel_tutorial.dart))
+    A carousel slider widget.
 
+    _Install Packages:_
+    ```powershell
+    flutter pub add carousel_slider cached_network_image
+    ```
+
+    _Example Code:_
+    ```dart
+      CarouselSlider(
+        carouselController: _carouselController,
+        items: [
+          // items to display in carousel.
+        ],
+        options: CarouselOptions(
+          enlargeCenterPage: true,
+          aspectRatio: 16 / 8,
+          autoPlay: true,
+          enableInfiniteScroll: true,
+          viewportFraction: 0.8,
+          onPageChanged: (index, reason) {
+            // Perform some task when page is changed.
+          },
+        ),
+      );
     ```
