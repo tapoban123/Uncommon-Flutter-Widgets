@@ -5,6 +5,7 @@ import 'package:useful_widgets/widgets/choice_chip_demo.dart';
 import 'package:useful_widgets/widgets/dynamic_carousel_tutorial.dart';
 import 'package:useful_widgets/widgets/fractionally_sized_box.dart';
 import 'package:useful_widgets/widgets/hero_widget_demo.dart';
+import 'package:useful_widgets/widgets/isolates_tutorial.dart';
 import 'package:useful_widgets/widgets/range_slider_demo.dart';
 import 'package:useful_widgets/widgets/search_delegate_demo.dart';
 import 'package:useful_widgets/widgets/sliver_app_bar_demo.dart';
@@ -72,6 +73,10 @@ class WidgetListScreen extends StatelessWidget {
               WidgetButton(
                 buttonText: "Carousel Slider Demo",
                 navigateToPage: DynamicCarouselTutorial(),
+              ),
+              WidgetButton(
+                buttonText: "Isolates Demo",
+                navigateToPage: IsolatesTutorial(),
               ),
             ],
           ),
