@@ -69,7 +69,6 @@ class CustomSearchDelegate extends SearchDelegate {
         matchQuery.add(fruit);
       }
     }
-    print(matchQuery);
 
     return ListView.builder(
       itemCount: matchQuery.length,
